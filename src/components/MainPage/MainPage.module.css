@@ -1,3 +1,11 @@
-.container {
-    color: rebeccapurple;
+.mainPage {
+    background-image: url("../../images/background_img-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #f0f0f0;
+    height: 100vh;
+    padding: 2rem;
+    font-family: "Segoe UI", sans-serif;
 }
