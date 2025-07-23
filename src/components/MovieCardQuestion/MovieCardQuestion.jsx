@@ -1,6 +1,6 @@
-import css from "./MovieCard.module.css";
+import css from "./MovieCardQuestion.module.css";
 
-const MovieCard = () => {
+const MovieCardQuestion = () => {
     return (
         <div className={css.card}>
             <div className={css.card_left}>
@@ -274,4 +274,4 @@ const MovieCard = () => {
     );
 };
 
-export default MovieCard;
+export default MovieCardQuestion;

@@ -1,13 +1,15 @@
 import "./App.css";
 import MainPage from "./MainPage/MainPage";
-import MovieCard from "./MovieCard/MovieCard";
+import MovieCardQuestion from "./MovieCardQuestion/MovieCardQuestion";
+import MovieCardFace from "./MovieCardFace/MovieCardFace";
 
 function App() {
     return (
         <>
             <div>
                 <MainPage />
-                <MovieCard />
+                <MovieCardQuestion />
+                <MovieCardFace />
             </div>
         </>
     );
